@@ -1,16 +1,24 @@
+* {
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
 body {
-    background-color: rgb(40, 36, 43);
+    background-color: #343035;
+}
+
+header {
+    font-size: 14px;
+    background-color: #000000;
+    border-radius: 15px;
 }
 
 a {
     text-decoration: none;
     font-weight: 800;
-    color: white;
 }
 
 section h1 {
-    font-family: "Rubik", sans-serif;
-    color: white;
     text-transform: uppercase;
     text-align: center;
 }
@@ -19,32 +27,57 @@ section h1 {
 nav {
     text-align: right;
     text-transform: uppercase;
-    font-family: "Rubik", sans-serif;
 }
 
 nav ul {
     list-style-type: none;
 }
 
-/* Estilos del FOOTER */
-footer ul {
+form input {
+    color: #000000;
+}
+
+form textarea {
+    color: #000000;
+}
+
+/* Clases: */
+.img-size {
+    width: 800px;
+}
+
+.img-size img {
+    width: 100%;
+}
+
+.index-awards {
+    width: 190px;
+}
+
+.index-awards img {
+    width: 100%;
+}
+
+.index-img-section-mid {
+    width: 190px;
+    text-align: center;
+}
+
+.index-img-section-mid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer-card {
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-card ul {
     list-style-type: none;
+    text-align: left;
 }
-
-/* Clases: INDEX */
-.index-carrusel-img {
-    width: 50vw;
-    height: 340px;
-}
-
-.index-img-awards {
-    width: 200px;
-    height: 200px;
-}
-
-.index-img-pendrive {
-    width: 300px;
-    height: 300px;
-}
-
-
