@@ -61,23 +61,30 @@ form textarea {
 .index-img-section-mid {
     width: 190px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .index-img-section-mid img {
     width: 100%;
     border-radius: 10px;
+    
 }
 
 .footer-card {
     width: 350px;
     height: 350px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #000000;
     text-align: center;
     font-size: 13px;
 }
 
+.footer-card form {
+    width: 60%;
+}
+
 .footer-card ul {
     list-style-type: none;
     text-align: left;
+    width: 80%;
 }
