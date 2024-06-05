@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: "Rubik", sans-serif;
     color: white;
 }
@@ -7,15 +9,13 @@ body {
     background-color: #343035;
 }
 
-header {
-    font-size: 14px;
-    background-color: #000000;
-    border-radius: 15px;
-}
-
 a {
     text-decoration: none;
     font-weight: 850;
+}
+
+main {
+    margin-top: 160px;
 }
 
 section h2 {
@@ -25,7 +25,6 @@ section h2 {
 
 /* Estilos del NAV */
 nav {
-    text-align: right;
     text-transform: uppercase;
 }
 
@@ -42,6 +41,33 @@ form textarea {
 }
 
 /* Clases: */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    background-color: #000000;
+    padding: 10px; 
+    border-radius: 20px;
+    margin: 10px;
+    height: 80px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav-items li {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
 .img-size {
     width: 800px;
 }
@@ -87,4 +113,9 @@ form textarea {
     list-style-type: none;
     text-align: left;
     width: 80%;
+}
+
+.logo-image {
+    width: 150px;
+    border-radius: 30px;
 }
