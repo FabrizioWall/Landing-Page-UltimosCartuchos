@@ -53,7 +53,7 @@ form textarea {
 /* Clases: HEADER y NAVBAR */
 /* ------------------------------------------------------ */
 .header {
-    position: fixed;
+    position: fixed; 
     width: 100%;
     top: 0;
 }
@@ -78,6 +78,10 @@ form textarea {
 .nav-items li {
     padding-left: 15px;
     padding-right: 10px;
+}
+
+.nav-items li a:hover{
+    color: #008000;
 }
 /* ------------------------------------------------------ */
 
@@ -179,8 +183,12 @@ form textarea {
     justify-content: space-between;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 .carrousell-image {
-    width: 870px;
+    width: 700px;
 }
 
 .carrousell-image img {
@@ -196,6 +204,43 @@ form textarea {
     border-radius: 20px;
     margin-top: 20px;
 }
+
+.div-size {
+    width: 900px;
+}
+
+.div-size img {
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.section-image {
+    width: 800px;
+}
+
+.section-image img {
+    width: 100%;
+    border-radius: 45px;
+    margin-top: 45px;
+}
+
+.carousel-caption-bottom {
+    position: static;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+  
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
 .history-content {
     margin-top: 15px;
